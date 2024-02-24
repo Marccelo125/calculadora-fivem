@@ -1,0 +1,34 @@
+[
+    {
+        "id": "kit medico",
+        "venda": "500",
+        "compra": "285"
+    },
+    {
+        "id": "atadura",
+        "venda": "100",
+        "compra": "90"
+    },
+    {
+        "id": "bandagem",
+        "venda": "150",
+        "compra": "115"
+    },
+    {
+        "id": "analgesico",
+        "venda": "100",
+        "compra": "85"
+    },
+    {
+        "id": "sinkalmy",
+        "venda": "200",
+        "compra": "185"
+    },
+    {
+        "id": "ritmoneury",
+        "venda": "250",
+        "compra": "225"
+    }
+]
+
+
