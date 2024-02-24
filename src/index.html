@@ -30,7 +30,7 @@
       <div class="container-fluid">
         <div class="row">
             <div class="col-8">
-              <table class="table table-bordered">
+              <table class="table table-bordered user-select-none">
                 <thead>
                   <tr>
                     <th scope="col">Produto</th>
@@ -43,7 +43,7 @@
                 <tfoot>
                   <tr>
                     <th scope="row">Val. Total da Venda</th>
-                    <td colspan="2"><strong style="color: rgb(49, 93, 212);" id="valor-total">0</strong></td>
+                    <td colspan="2" class="user-select-all"><strong style="color: rgb(49, 93, 212);" id="valor-total">0</strong></td>
                     <td>
                       <button
                         type="button"
@@ -58,7 +58,7 @@
               </table>
             </div>
           <div class="col-4">
-            <ul class="list-group overflow-auto shadow" style="max-height: 70vh;" id="relatorio"></ul>
+            <ul class="list-group overflow-auto shadow user-select-none" style="max-height: 70vh;" id="relatorio"></ul>
           </div>
         </div>
       </div>
