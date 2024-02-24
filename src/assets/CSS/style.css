@@ -6,8 +6,9 @@
 
 .footer-name {
     text-decoration: none;
+    color: rgb(255, 80, 80);
 }
 
 .footer-name:hover {
-    text-decoration: underline;
+    color: rgb(255, 141, 141);
 }
