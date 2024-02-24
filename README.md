@@ -1,5 +1,5 @@
 # 🔢 Calculadora FIVEM 🧮
-#### GitHub Pages: https://marccelo125.github.io/calculadora-fivem/
+#### GitHub Pages: [Clique aqui para acessar](https://marccelo125.github.io/calculadora-fivem/src/)
 > [!NOTE]
 >Este é um projeto surgiu da necessidade de amigos que precisavam calcular o valor total de venda de certos produtos mais rapidamente do que apenas utilizando manualmente uma calculadora, priorizando a qualidade da jogatina.
 
