@@ -6,4 +6,4 @@
 > [!IMPORTANT]
 > Este projeto é de uso livre. Qualquer ajuda ou melhora é bem-vinda!
 
-![image](https://github.com/Marccelo125/calculadora-fivem/assets/127633664/3c57ecd8-09af-47b2-a5bf-c942e3c0e33f)
+![image](https://github.com/Marccelo125/calculadora-fivem/assets/127633664/2ba32dfc-b0c3-49ae-ac46-36566d7016fa)
