@@ -12,7 +12,7 @@ async function gerarProdutos() {
     const trElement = document.createElement("tr");
 
     trElement.innerHTML = `
-        <th scope="row">${produto.id.toUpperCase()}</th>
+        <th scope="row">${produto.id.charAt(0).toUpperCase() + produto.id.slice(1)}</th>
         <td>${produto.venda}</td>
         <td>${produto.compra}</td>
         <td>
