@@ -43,9 +43,10 @@ function adicionar(valor, nome, quantidade) {
       quantidade--;
     }
     divRelatorio.innerHTML += `
-    <li class="list-group-item d-flex align-items-center justify-content-between mx-5" id="${indexItem}">${
+    <li class="list-group-item d-flex align-items-center justify-content-between" id="${indexItem}">${
       nome.charAt(0).toUpperCase() + nome.slice(1)
-    } x5<button type="button" class="btn btn-danger" onclick="remover(${valor}, ${indexItem}, 5)"><i class="bi bi-trash-fill"></i></button></li>
+    } x5
+    <button type="button" class="btn btn-danger" onclick="remover(${valor}, ${indexItem}, 5)"><i class="bi bi-trash-fill"></i></.button></li>
     `;
   } else {
     valorTotal = valorTotal + valor;
@@ -56,7 +57,7 @@ function adicionar(valor, nome, quantidade) {
 
     const indexItem = relatorio.indexOf(newItem);
     divRelatorio.innerHTML += `
-    <li class="list-group-item d-flex align-items-center justify-content-between mx-5" id="${indexItem}">${
+    <li class="list-group-item d-flex align-items-center justify-content-between" id="${indexItem}">${
       nome.charAt(0).toUpperCase() + nome.slice(1)
     }<button type="button" class="btn btn-danger" onclick="remover(${valor}, ${indexItem})"><i class="bi bi-trash-fill"></i></button></li>
     `;
