@@ -17,15 +17,9 @@ async function gerarProdutos() {
           produto.id.charAt(0).toUpperCase() + produto.id.slice(1)
         }</th>
         <td>${produto.venda}</td>
-        <td>${produto.compra}</td>
-        <td>
-            <button type="button" class="container-fluid btn btn-primary" onclick="adicionar(${
-              produto.venda
-            }, '${produto.id}')">Adicionar</button>
-        </td>
-        <td><button type="button" class="container-fluid btn btn-secondary" onclick="adicionar(${
-          produto.venda
-        }, '${produto.id}', 5)">5x</button></td>
+        <td class="d-none d-md-table-cell d-lg-table-cell">${produto.compra}</td>
+        <td><button type="button" class="container-fluid btn btn-primary" onclick="adicionar(${produto.venda}, '${produto.id}')"><span class="d-none d-md-block d-lg-block">Adicionar</span><span class="d-block d-md-none d-lg-none">+</span></button></td>
+        <td class="d-none d-md-table-cell d-lg-table-cell"><button type="button" class="container-fluid btn btn-secondary" onclick="adicionar(${produto.venda}, '${produto.id}', 5)">5x</button></td>
         `;
     divProdutos.appendChild(trElement);
   });
@@ -57,7 +51,7 @@ function criarLista(array) {
   let listaItems = [];
   array.forEach((item) => {
     listaItems += `
-        <li class="list-group-item d-flex align-items-center justify-content-between">${item.nome.charAt(0).toUpperCase() + item.nome.slice(1)} x${item.quantidade}
+        <li class="list-group-item d-flex align-items-center justify-content-between fs-7 fs-md-5 fs-lg-4">${item.nome.charAt(0).toUpperCase() + item.nome.slice(1)} x${item.quantidade}
         <button type="button" class="btn btn-danger" onclick="apagar('${item.nome}')"><i class="bi bi-trash-fill"></i></button>
         </li>
         `;

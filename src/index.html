@@ -19,24 +19,24 @@
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
   </head>
   <body>
-    <header class="text-center my-5">
+    <header class="text-center my-1 my-md-5 my-lg-5">
       <h1>Calculadora FIVEM</h1>
       <span
         >Calculadora simples de produtos médicos para o jogo
         <a href="https://fivem.net" target="_blank">Fivem</a></span
       >
     </header>
-    <main class="container m-5">
+    <main class="m-1 m-md-5 m-lg-5">
       <div class="container-fluid">
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-8 col-lg-8">
               <table class="table table-bordered user-select-none shadow">
                 <thead>
                   <tr>
                     <th scope="col">PRODUTO</th>
                     <th scope="col">VENDA</th>
-                    <th scope="col">COMPRA</th>
-                    <th scope="col" colspan="2">#</th>
+                    <th scope="col" class="d-none d-md-table-cell d-lg-table-cell">COMPRA</th>
+                    <th scope="col" colspan="2" class="d-none d-md-table-cell d-lg-table-cell">#</th>
                   </tr>
                 </thead>
                 <tbody id="produtos"></tbody>
@@ -44,7 +44,7 @@
                   <tr>
                     <th scope="row">Val. Total da Venda</th>
                     <td colspan="2" class="user-select-all"><strong style="color: rgb(49, 93, 212);" id="valor-total">0</strong></td>
-                    <td colspan="2">
+                    <td colspan="2" class="d-none d-md-table-cell d-lg-table-cell">
                       <button
                         type="button"
                         class="container-fluid btn btn-warning"
@@ -57,7 +57,7 @@
                 </tfoot>
               </table>
             </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4 col-lg-4">
             <ul class="list-group overflow-auto shadow user-select-none vh-100 p-1" style="max-height: 69vh;" id="relatorio"></ul>
           </div>
         </div>
