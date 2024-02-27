@@ -41,7 +41,6 @@ function adicionar(valor, nome, quantidade) {
     const novoItem = { nome: nome, valor: valor, quantidade: quantidade };
     relatorio.push(novoItem);
   }
-  console.log(relatorio);
 
   divValorTotal.innerText = `${(valorTotal += valor * quantidade)}`;
   criarLista(relatorio);
