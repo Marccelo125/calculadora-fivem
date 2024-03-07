@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-bs-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,12 +19,28 @@
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
   </head>
   <body>
-    <header class="text-center my-1 my-md-5 my-lg-5">
-      <h1>Calculadora FIVEM</h1>
-      <span
-        >Calculadora simples de produtos médicos para o jogo
-        <a href="https://fivem.net" target="_blank">Fivem</a></span
-      >
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center justify-content-center ms-auto mt-3 mb-0">
+            <div class="form-check form-switch">
+              <label class="form-check-label ms-3" for="lightSwitch" id="svg-theme"></label>
+              <input class="form-check-input" type="checkbox" id="lightSwitch" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center my-5 my-md-1 my-lg-0">
+              <h1>Calculadora FIVEM</h1>
+              <span
+                >Calculadora simples de produtos médicos para o jogo
+                <a href="https://fivem.net" target="_blank">Fivem</a></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="m-1 m-md-5 m-lg-5">
       <div class="container-fluid">
@@ -86,5 +102,6 @@
     ></script>
     <script src="./assets/JSON/produtos.json"></script>
     <script src="./assets/JS/relatorio.js"></script>
+    <script src="./assets/JS/switch.js"></script>
   </body>
 </html>
